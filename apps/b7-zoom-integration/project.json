@@ -1,0 +1,9 @@
+{
+  "name": "b7-zoom-integration",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/b7-zoom-integration",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project b7-zoom-integration --web",
+  "targets": {}
+}
