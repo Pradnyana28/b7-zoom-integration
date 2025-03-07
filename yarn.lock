@@ -1959,7 +1959,15 @@
   resolved "https://registry.yarnpkg.com/@nolyfill/is-core-module/-/is-core-module-1.0.39.tgz#3dc35ba0f1e66b403c00b39344f870298ebb1c8e"
   integrity sha512-nn5ozdjYQpUCZlWGuxcJY/KpxkWQs4DcbMCmKojjyrYDEAGy4Ce19NN4v5MduafTwJlbKc99UA8YhSVqq9yPZA==
 
-"@nx/devkit@20.5.0":
+"@nx-go/nx-go@3.3.1":
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@nx-go/nx-go/-/nx-go-3.3.1.tgz#e4252bf009f3fa756115c841c6718cba8118ed6e"
+  integrity sha512-0BJXOvwUxQgqUEEn7NYjDhU4v4sweLkJKmTUY8UTSA93nGVpdXuEDgChNxa7Nq3TTLzIIJQODFB1hcnf/5UsyA==
+  dependencies:
+    "@nx/devkit" ">= 17 < 21"
+    tslib "^2.3.0"
+
+"@nx/devkit@20.5.0", "@nx/devkit@>= 17 < 21":
   version "20.5.0"
   resolved "https://registry.yarnpkg.com/@nx/devkit/-/devkit-20.5.0.tgz#e62378f3348ce9353f51d7d659240e59fffce337"
   integrity sha512-FLHjNRb6VImdlnDsp3ioIdM600y2xPvN88LFV9zPrG2hDXSaD9Np9YBZvvfCr4x46MrPCTTMoAVwWsCXIBgchg==
