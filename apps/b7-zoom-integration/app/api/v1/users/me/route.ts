@@ -1,6 +1,6 @@
 export async function GET() {
   try {
-    const result = await fetch('http://localhost:8080/v1/users/me');
+    const result = await fetch(process.env.API_URL + '/v1/users/me');
     const data = await result.json();
 
     return new Response(JSON.stringify(data), {

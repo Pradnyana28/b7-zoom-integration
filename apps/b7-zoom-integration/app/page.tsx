@@ -2,7 +2,9 @@ import AccountInfo from './_includes/components/accountInfo';
 import Button from './_includes/components/button';
 
 export default async function Index() {
-  const userResponse = await fetch('http://localhost:3000/api/v1/users/me');
+  const userResponse = await fetch(
+    process.env.INTERNAL_API_URL + '/v1/users/me'
+  );
   const user = await userResponse.json();
 
   return (
