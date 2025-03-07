@@ -2,7 +2,15 @@
 
 This project is bootstraped with NX monorepo. Use the NX plugin on VS Code, Cursor, or Trae IDE.
 
-## How To User
+## How To Use
+
+### Install
+
+Install all the dependencies with command below
+
+```bash
+yarn
+```
 
 ### Run the Api
 
